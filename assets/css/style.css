@@ -19182,13 +19182,9 @@ nav ul li a {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner-area-one.v-2 .review-thumb .review-single {
-    top: 20%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .banner-area-one.v-2 .review-thumb .review-single {
-    top: 20%;
-    left: 20%;
+    top: 4%;
+    left: unset;
+    right: 0;
   }
 }
 .banner-area-one.v-2 .review-thumb .review-single.two {
@@ -19200,14 +19196,10 @@ nav ul li a {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner-area-one.v-2 .review-thumb .review-single.two {
-    top: 30%;
-    right: 60%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .banner-area-one.v-2 .review-thumb .review-single.two {
-    top: 30%;
-    right: 20%;
+    top: unset;
+    right: unset;
+    left: 0;
+    bottom: 5%;
   }
 }
 .banner-area-one.v-2 .review-thumb .review-single {
@@ -20468,7 +20460,7 @@ nav ul li a {
 }
 
 .banner-area-five {
-  padding-top: 100px;
+  padding-top: 60px;
   height: auto;
   overflow: hidden;
   position: relative;
@@ -20483,7 +20475,7 @@ nav ul li a {
   left: 12%;
 }
 .banner-area-five .shape-image .two {
-  top: 40%;
+  top: 25%;
   right: 15%;
 }
 .banner-area-five .shape-image .three {
@@ -20496,7 +20488,7 @@ nav ul li a {
 }
 .banner-area-five .shape-image .five {
   right: 2%;
-  bottom: 25%;
+  bottom: 35%;
 }
 .banner-area-five .banner-top-content .title-area-center-style {
   margin-bottom: 41px;
@@ -38107,7 +38099,12 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 
   .banner-three-bg .banner-three-images .float-img.right-img img:nth-child(2) {
     top: -40%;
-    right: -10%;
+    right: 0%;
+  }
+
+  .banner-three-bg .banner-three-images .float-img.right-img .review-thumb .review-single {
+    left: unset;
+    right: 5%;
   }
 
   .category-style-three .title {
@@ -38378,12 +38375,13 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   .banner-right-img {
     margin-left: 0;
   }
-  .banner-right-img img {
-    width: 100%;
-  }
 
   .banner-area-one .shape-image {
     display: none;
+  }
+
+  .banner-three-bg .banner-three-images .float-img.right-img .review-thumb .review-single {
+    top: -50%;
   }
 
   .left-side-image {
@@ -39060,7 +39058,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   }
 
   .banner-three-wrapper .title-area-center-style .title {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .students-feedback-area.v-3 .title-between-area .title {
