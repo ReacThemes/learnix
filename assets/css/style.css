@@ -18946,6 +18946,12 @@ nav ul li a {
   left: 37px;
   bottom: 37px;
 }
+@media (max-width: 450px) {
+  .banner-left-img .review-single {
+    left: 15px;
+    bottom: 15px;
+  }
+}
 .banner-left-img .review-single .info-left .title {
   color: #fff;
   margin-bottom: 0;
@@ -19014,6 +19020,17 @@ nav ul li a {
   font-weight: 600;
   line-height: 50px;
 }
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .banner-right-content .review-bottom .title {
+    font-size: 29px;
+  }
+}
+@media (max-width: 1200px) {
+  .banner-right-content .review-bottom .title {
+    font-size: 25px;
+    line-height: 1.4;
+  }
+}
 @media (max-width: 430px) {
   .banner-right-content .review-bottom .title {
     font-size: 25px;
@@ -19038,6 +19055,16 @@ nav ul li a {
 }
 .banner-right-content .review-bottom .review-sm h3 span {
   font-weight: 600;
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .banner-right-content .review-bottom .review-sm h3 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1200px) {
+  .banner-right-content .review-bottom .review-sm h3 {
+    font-size: 23px;
+  }
 }
 @media (max-width: 376px) {
   .banner-right-content .review-bottom .review-sm h3 {
@@ -39094,7 +39121,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   }
 
   .banner-area-one .title-banner {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .single-testimonials-3 .author-area .text h4 {
