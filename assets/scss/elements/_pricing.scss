@@ -1,0 +1,185 @@
+
+// pricing area style
+
+.toggle-tab-area-main{
+    .plan-toggle-wrap {
+        text-align: center;
+        padding: 10px;
+        position:sticky;
+        top:0;
+    }
+    .toggle-inner input {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      border-radius: 25px;
+      right: 0;
+      z-index: 1;
+      opacity: 0;
+      cursor: pointer;
+    }
+    .custom-toggle {
+      position: absolute;
+      height: 25px;
+      width: 25px;
+      background-color: #ffffff;
+      top: 4px;
+      left: 5px;
+      border-radius: 50%;
+      transition: 300ms all;
+    }
+    .toggle-inner .t-month, .toggle-inner .t-year {
+      position: absolute;
+      left: -75px;
+      top: 5px;
+      color: #110C2D;
+      transition: 300ms all;
+    }
+    .toggle-inner .t-year {
+      left: unset;
+      right: -60px;
+      opacity: 0.5;
+    }
+    .active .toggle-inner .t-month {
+      opacity: 0.5;
+    }
+    .active .toggle-inner .t-year {
+      opacity: 1;
+    }
+    .toggle-inner input:checked + span {
+      left: 43px;
+    }
+    .toggle-inner {
+      width: 75px;
+      margin: 0 auto;
+      height: 35px;
+      border: 1px solid #ffffff;
+      border-radius: 25px;
+      position: relative;
+      margin-left: auto;
+      margin-right: 50px;
+      
+      background: var(--color-primary);
+    }
+    
+
+    .plan-toggle-wrap{
+        #monthly{
+            display: none !important;
+        }
+        #yearly{
+            display: flex !important;
+        }
+    }
+    .plan-toggle-wrap.active{
+        #monthly{
+            display: flex !important;
+        }
+        #yearly{
+            display: none !important;
+        }
+    }
+
+}
+
+
+.single--pricing-area{
+    padding: 55px 35px;
+    border: 1px solid #DDD8F9;
+    border-radius: 10px;
+    .top-area{
+        text-align: start;
+        .type{
+            color: #553CDF;
+            display: block;
+            margin-bottom: 20px;
+            text-align: start;
+            font-weight: 500;
+        }
+        .price-area{
+            .title{
+                font-size: 44px;
+                line-height: 1;
+                span{
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #737477;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    &.active{
+        background: var(--body-bg-1);
+        .rts-btn{
+            background: var(--color-primary);
+            color: #fff;
+        }
+    }
+    .rts-btn{
+        padding: 14px 42px 13px;
+        max-width: max-content;
+        border-radius: 6px;
+        line-height: 1;
+    }
+    .access-area{
+        margin: 40px 0 35px;
+        .single-access{
+            margin: 17px 0;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            span{
+                color: #110C2D;
+                font-size: 20px;
+                font-weight: 400;
+            }
+            i{
+                color: #110C2D;
+            }
+        }
+    }
+}
+
+.rts-accordion{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .accordion-item{
+        border-radius: 6px;
+        border: 1px solid #DDD8F9;
+        padding: 24px 30px 21px;
+        .accordion-button{
+            background: transparent;
+            padding: 0;
+            box-shadow: none;
+            font-size: 20px;
+            line-height: 28px;
+            font-weight: 500;
+            &:not(.collapsed){
+                color: var(--color-heading-1);
+                &::after{
+                    content: "-";
+                    font-size: 28px;
+                }
+            }
+            &::after{
+                height: unset;
+                width: unset;
+                color: var(--color-heading-1);
+                background: none;
+                content: "+";
+                font-size: 24px;
+                line-height: 1;
+            }
+        }
+        .accordion-body{
+            padding: 0;
+            padding-top: 18px;
+            margin-top: 20px;
+            border-top: 1px solid #DDD8F9;
+        }
+    }
+}
