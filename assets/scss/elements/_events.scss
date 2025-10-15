@@ -498,6 +498,9 @@
 
 
 .single-upcoming-events {
+    .rts-btn{
+        border: 1px solid transparent;
+    }
     &:hover {
         .rts-btn {
             background: var(--color-primary) !important;

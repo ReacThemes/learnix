@@ -257,9 +257,16 @@
     transition: .3s;
     position: relative;
 
+    &:hover {
+        .icon {
+            transform: translateY(-5px);
+        }
+    }
+
     .icon {
         max-width: max-content;
         margin: auto;
+        transition: .3s;
     }
 
     .title {

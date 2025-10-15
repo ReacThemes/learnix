@@ -168,7 +168,7 @@
     }
     .dashboard-left-single-wrapper{
         .title{
-            color:  #110C2D;
+            color:  var(--color-heading-1);
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
@@ -334,7 +334,7 @@
         }
         a{
             .title{
-                color:  #110C2D;
+                color:  var(--color-heading-1);
                 font-size: 20px;
                 font-style: normal;
                 font-weight: 600;
@@ -377,7 +377,7 @@
     align-items: center;
     justify-content: space-between;
     a{
-        color: #110C2D;
+        color: var(--color-heading-1);
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -392,7 +392,7 @@
     .single-course-inroll-board{
         &.head{
             p{
-                color:  #110C2D;
+                color:  var(--color-heading-1);
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 500;
@@ -441,7 +441,7 @@
     }
     .name{
         flex-basis: 40%;
-        color:  #110C2D;
+        color:  var(--color-heading-1);
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -476,7 +476,7 @@
                 padding: 10px 0;
                 border: none;
                 margin: 0 0;
-                color:  #110C2D;
+                color:  var(--color-heading-1);
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 500;
@@ -523,7 +523,7 @@
 
 
 .footer-dashboard{
-    background: #110C2D;
+    background: var(--color-heading-1);
     .footer-dashboard-inner{
         display: flex;
         align-items: center;
@@ -604,7 +604,7 @@
                         align-items: center;
                         gap: 14px;
                         p{
-                            color:  #110C2D;
+                            color:  var(--color-heading-1);
                             font-size: 16px;
                             font-style: normal;
                             font-weight: 600;
@@ -612,9 +612,6 @@
                         }
                         .profile-picture{
                             min-width: max-content;
-                            img{
-
-                            }
                         }
                     }
                     .stars{
@@ -624,7 +621,7 @@
                         }
                         span{
                             margin-left: 5px;
-                            color: #110C2D;
+                            color: var(--color-heading-1);
                             font-size: 14px;
                             font-style: normal;
                             font-weight: 400;
@@ -644,7 +641,7 @@
                 tr{
                     th{
                         text-transform: capitalize !important;
-                        color:  #110C2D;
+                        color:  var(--color-heading-1);
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 500;
@@ -660,7 +657,7 @@
                             p.quiz{
                                 margin-top: 4px;
                                 margin-bottom: 5px;
-                                color: #110C2D;
+                                color: var(--color-heading-1);
                                 font-size: 16px;
                                 font-style: normal;
                                 font-weight: 400;
@@ -668,7 +665,7 @@
                             }
                             p .quiz{
                                 margin-bottom: 10px;
-                                color: #110C2D;
+                                color: var(--color-heading-1);
                                 font-size: 16px;
                                 font-style: normal;
                                 font-weight: 400;
@@ -890,7 +887,7 @@ tbody{
                     .information-q{
                         p{
                             margin: 0;
-                            color:  #110C2D;
+                            color:  var(--color-heading-1);
                             font-size: 16px;
                             font-style: normal;
                             font-weight: 500;
@@ -1079,7 +1076,7 @@ tbody{
             }
             .information{
                 p{
-                    color:  #110C2D;
+                    color:  var(--color-heading-1);
                     font-size: 20px;
                     font-style: normal;
                     font-weight: 500;
@@ -1178,7 +1175,7 @@ tbody{
             .left{
                 p{
                     margin-bottom: 0;
-                    color:  #110C2D;
+                    color:  var(--color-heading-1);
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 500;
@@ -1297,7 +1294,7 @@ body{
         margin: 70px;
     }
     p{
-        color:  #110c2d;
+        color:  var(--color-heading-1);
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -1345,7 +1342,7 @@ body{
     &>.left{
         flex-basis: 55%;
         .title{
-            color:  #110C2D;
+            color:  var(--color-heading-1);
             font-size: 24px;
             font-style: normal;
             font-weight: 600;
@@ -1395,7 +1392,7 @@ body{
             }
             .title{
                 margin-bottom: 0;
-                color:  #110C2D;
+                color:  var(--color-heading-1);
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 500;

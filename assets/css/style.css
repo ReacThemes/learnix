@@ -18479,8 +18479,7 @@ nav ul li a {
   border-radius: 100px;
 }
 .rts-btn.btn-primary:hover {
-  background: var(--body-bg-1) !important;
-  color: var(--color-primary) !important;
+  background: #6C57E8 !important;
 }
 .rts-btn.btn-gray {
   background: #FDF6F4;
@@ -20436,7 +20435,7 @@ nav ul li a {
 }
 
 .banner-area-five {
-  padding-top: 140px;
+  padding-top: 100px;
   height: auto;
   overflow: hidden;
   position: relative;
@@ -20473,6 +20472,7 @@ nav ul li a {
   font-size: 80px;
   margin-top: -8px;
   margin-bottom: 26px;
+  letter-spacing: -4px;
 }
 @media (max-width: 1200px) {
   .banner-area-five .banner-top-content .title-area-center-style .title {
@@ -20494,8 +20494,11 @@ nav ul li a {
     line-height: 1;
   }
 }
+.banner-area-five .banner-top-content .title-area-center-style p {
+  color: #7B7B7B;
+}
 .banner-area-five .banner-bottom {
-  margin-top: 100px;
+  margin-top: 40px;
   position: relative;
   z-index: 1;
 }
@@ -22437,9 +22440,13 @@ nav ul li a {
   transition: 0.3s;
   position: relative;
 }
+.category-style-one:hover .icon {
+  transform: translateY(-5px);
+}
 .category-style-one .icon {
   max-width: max-content;
   margin: auto;
+  transition: 0.3s;
 }
 .category-style-one .title {
   color: var(--color-heading-1);
@@ -25772,6 +25779,9 @@ nav ul li a {
   color: var(--color-primary);
 }
 
+.single-upcoming-events .rts-btn {
+  border: 1px solid transparent;
+}
 .single-upcoming-events:hover .rts-btn {
   background: var(--color-primary) !important;
   color: var(--color-white);
@@ -26352,6 +26362,7 @@ nav ul li a {
   top: 50%;
   transform: translateY(-50%);
   padding: 10px 20px;
+  border: 1px solid transparent;
 }
 
 .mt-dec-fun-f {
@@ -32886,7 +32897,7 @@ body.with-sidebar {
   }
 }
 .left-sindebar-dashboard .dashboard-left-single-wrapper .title {
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -33050,7 +33061,7 @@ body.with-sidebar {
   color: #FFA41C;
 }
 .single-progress-course .information-progress-course a .title {
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -33089,7 +33100,7 @@ body.with-sidebar {
   justify-content: space-between;
 }
 .title-between-dashboard a {
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -33108,7 +33119,7 @@ body.with-sidebar {
   align-items: center;
 }
 .my-course-enroll-wrapper-board .single-course-inroll-board.head p {
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -33155,7 +33166,7 @@ body.with-sidebar {
 }
 .my-single-portfolio-dashed .name {
   flex-basis: 40%;
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -33192,7 +33203,7 @@ body.with-sidebar {
   padding: 10px 0;
   border: none;
   margin: 0 0;
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -33229,7 +33240,7 @@ body.with-sidebar {
 }
 
 .footer-dashboard {
-  background: #110C2D;
+  background: var(--color-heading-1);
 }
 .footer-dashboard .footer-dashboard-inner {
   display: flex;
@@ -33302,7 +33313,7 @@ body.with-sidebar {
   gap: 14px;
 }
 .rts-reviewd-area-dashed .table-reviews tbody tr td .author-area p {
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -33319,7 +33330,7 @@ body.with-sidebar {
 }
 .rts-reviewd-area-dashed .table-reviews tbody tr td .stars span {
   margin-left: 5px;
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -33330,7 +33341,7 @@ body.with-sidebar {
 }
 .rts-reviewd-area-dashed .table-reviews.quiz thead tr th {
   text-transform: capitalize !important;
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -33342,7 +33353,7 @@ body.with-sidebar {
 .rts-reviewd-area-dashed .table-reviews.quiz tbody tr td .information-quiz p.quiz {
   margin-top: 4px;
   margin-bottom: 5px;
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -33350,7 +33361,7 @@ body.with-sidebar {
 }
 .rts-reviewd-area-dashed .table-reviews.quiz tbody tr td .information-quiz p .quiz {
   margin-bottom: 10px;
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -33563,7 +33574,7 @@ tbody.questions-answer tr td .students-questions {
 }
 tbody.questions-answer tr td .students-questions .information-q p {
   margin: 0;
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -33756,7 +33767,7 @@ tbody.questions-answer tr td .status-btn-wrapper .button-area i {
   }
 }
 .announcements-wrapper-dashed .top-announcement-wrapper .left-wrapper .information p {
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -33853,7 +33864,7 @@ tbody.questions-answer tr td .status-btn-wrapper .button-area i {
 }
 .announcements-wrapper-dashed .announcement .announcement-1 .left p {
   margin-bottom: 0;
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -33967,7 +33978,7 @@ body {
   margin: 70px;
 }
 .withdrow-inner-wrapper p {
-  color: #110c2d;
+  color: var(--color-heading-1);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -34019,7 +34030,7 @@ body {
   flex-basis: 55%;
 }
 .create-certificates-top-main-wrapper > .left .title {
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -34073,7 +34084,7 @@ body {
 }
 .all-certificates-main-wrapper-dashed .single-certificates .left .title {
   margin-bottom: 0;
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;

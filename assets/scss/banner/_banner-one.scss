@@ -2047,7 +2047,7 @@
 }
 
 .banner-area-five {
-    padding-top: 140px;
+    padding-top: 100px;
     height: auto;
     overflow: hidden;
     position: relative;
@@ -2093,6 +2093,7 @@
                 font-size: 80px;
                 margin-top: -8px;
                 margin-bottom: 26px;
+                letter-spacing: -4px;
 
                 @media (max-width:1200px) {
                     font-size: 70px;
@@ -2110,11 +2111,14 @@
                     line-height: 1;
                 }
             }
+            p {
+                color: #7B7B7B;
+            }
         }
     }
 
     .banner-bottom {
-        margin-top: 100px;
+        margin-top: 40px;
         position: relative;
         z-index: 1;
 
