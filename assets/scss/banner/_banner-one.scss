@@ -377,7 +377,7 @@
         left: 37px;
         bottom: 37px;
 
-        @media (max-width:450px){
+        @media (max-width:450px) {
             left: 15px;
             bottom: 15px;
         }
@@ -428,6 +428,13 @@
 
                 .four {
                     margin-left: -20px;
+                }
+
+                img {
+                    @media(max-width:450px) {
+                        width: 60px;
+                        height: 60px;
+                    }
                 }
             }
 
@@ -483,7 +490,7 @@
             }
 
             @media(max-width:376px) {
-                font-size: 20px;
+                font-size: 18px;
             }
         }
 
@@ -511,7 +518,7 @@
                 }
 
                 @media(max-width:376px) {
-                    font-size: 20px;
+                    font-size: 15px;
                 }
             }
         }

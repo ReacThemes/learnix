@@ -18990,6 +18990,12 @@ nav ul li a {
 .banner-right-content .review-single .sm-image-wrappers .images-wrap .four {
   margin-left: -20px;
 }
+@media (max-width: 450px) {
+  .banner-right-content .review-single .sm-image-wrappers .images-wrap img {
+    width: 60px;
+    height: 60px;
+  }
+}
 .banner-right-content .review-single .sm-image-wrappers .info {
   margin-top: 17px;
 }
@@ -19039,7 +19045,7 @@ nav ul li a {
 }
 @media (max-width: 376px) {
   .banner-right-content .review-bottom .title {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 .banner-right-content .review-bottom .review-sm {
@@ -19068,7 +19074,7 @@ nav ul li a {
 }
 @media (max-width: 376px) {
   .banner-right-content .review-bottom .review-sm h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
