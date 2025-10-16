@@ -613,7 +613,19 @@
     }
 
     .banner-inner {
-        padding: 120px 0 175px;
+        padding: 180px 0;
+
+        @media (max-width:1200px) {
+            padding: 100px 0;
+        }
+
+        @media (max-width:991px) {
+            padding: 150px 0;
+        }
+
+        @media (max-width:500px) {
+            padding: 100px 0;
+        }
     }
 
     .banner-content-one {
@@ -687,6 +699,7 @@
             top: 75%;
             left: 22%;
             z-index: 1;
+            animation: animateY 5s linear infinite;
 
             @media #{$md-layout} {
                 top: 4%;
@@ -696,11 +709,12 @@
         }
 
         .review-single.two {
-            top: 0%;
+            top: 4%;
             bottom: auto;
             right: 30%;
             left: auto;
             max-width: max-content;
+            animation: animateX 5s linear infinite;
 
             @media #{$md-layout} {
                 top: unset;
@@ -2251,24 +2265,8 @@
                     position: absolute;
                     top: 48%;
                     right: 12%;
-                    animation: animateY 5s infinite;
+                    animation: animateY 15s linear infinite;
 
-
-                    @keyframes animateY {
-                        0% {
-                            transform: translateY(0);
-                        }
-
-                        50% {
-                            transform: translateY(-20px);
-
-                        }
-
-                        100% {
-                            transform: translateY(0);
-
-                        }
-                    }
 
                     @media (min-width:1200px) and (max-width:1400px) {
                         right: 0;
@@ -2300,24 +2298,7 @@
                     position: absolute;
                     bottom: 16%;
                     left: 22%;
-                    animation: animateX 5s infinite;
-
-
-                    @keyframes animateX {
-                        0% {
-                            transform: translateX(0);
-                        }
-
-                        50% {
-                            transform: translateX(-30px);
-
-                        }
-
-                        100% {
-                            transform: translateX(0);
-
-                        }
-                    }
+                    animation: animateX 5s linear infinite;
 
 
                     @media (min-width:1200px) and (max-width:1400px) {

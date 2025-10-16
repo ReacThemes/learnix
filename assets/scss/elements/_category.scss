@@ -705,6 +705,12 @@
     padding: 15px 18px;
     transition: .3s;
 
+    &:hover {
+        .icon {
+            transform: translateY(-5px);
+        }
+    }
+
     @media #{$sm-layout} {
         flex-direction: row;
         align-items: center;
@@ -732,6 +738,7 @@
     .icon {
         border-radius: 50%;
         overflow: hidden;
+        transition:var(--transition)
     }
 
     &.v-6 {
