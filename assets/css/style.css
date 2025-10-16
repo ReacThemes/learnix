@@ -30081,6 +30081,7 @@ body.with-sidebar {
   text-decoration: none;
   padding: 5px 12px;
   border-radius: 2px;
+  border-color: transparent;
 }
 .rts-reviewd-area-dashed .table-reviews.quiz tbody tr td .pass {
   display: block;
@@ -30487,6 +30488,7 @@ tbody.questions-answer tr td .status-btn-wrapper .button-area i {
 }
 .announcements-wrapper-dashed .top-announcement-wrapper .right button {
   padding: 12px 25px;
+  border-color: transparent;
 }
 .announcements-wrapper-dashed .top-announcement-wrapper .right button:focus {
   box-shadow: none;
@@ -32288,7 +32290,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 
 .contact-left-area-start .title {
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
@@ -32302,7 +32304,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   }
 }
 .contact-left-area-start .title span {
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -32319,7 +32321,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   margin-bottom: 20px;
 }
 .contact-page-form label {
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -32427,7 +32429,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   z-index: 1;
 }
 .login-page-form-area label {
-  color: #110C2D;
+  color: var(--color-heading-1);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
