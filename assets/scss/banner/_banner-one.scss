@@ -179,8 +179,8 @@
             z-index: -1;
 
             &.one {
-                left: 22%;
-                top: 2%;
+                left: 13%;
+                top: 12%;
 
                 @media #{$smlg-device} {
                     display: none;
@@ -193,7 +193,7 @@
 
             &.two {
                 right: 0;
-                top: 20%;
+                top: 30%;
 
                 @media #{$md-layout} {
                     left: 5%;
@@ -211,7 +211,7 @@
 
             &.three {
                 left: -9px;
-                top: 25%;
+                top: 35%;
 
                 @media #{$sm-layout} {
                     display: none;
@@ -234,7 +234,7 @@
     }
 
     @media(max-width:991px) {
-        padding-top: 60px ;
+        padding-top: 60px;
     }
 
     @media #{$sm-layout} {
