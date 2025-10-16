@@ -16516,7 +16516,17 @@ nav ul li a {
   justify-content: space-between;
   align-items: flex-end;
   gap: 150px;
-  padding-top: 130px;
+  padding-top: 200px;
+}
+@media (max-width: 1200px) {
+  .banner-content-four {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 500px) {
+  .banner-content-four {
+    padding-top: 70px;
+  }
 }
 .banner-content-four .left {
   max-width: 740px;
@@ -19566,6 +19576,9 @@ nav ul li a {
 .single-category-3:hover {
   box-shadow: 0px 4px 40px rgba(73, 73, 73, 0.1);
 }
+.single-category-3:hover .icon {
+  transform: translateY(-5px);
+}
 @media only screen and (max-width: 767px) {
   .single-category-3 {
     padding: 15px;
@@ -19591,6 +19604,7 @@ nav ul li a {
   display: block;
   text-align: center;
   overflow: hidden;
+  transition: var(--transition);
 }
 .single-category-3.v-6 {
   background: var(--color-body-2);
@@ -19749,6 +19763,7 @@ nav ul li a {
   position: relative;
   background: var(--color-white);
   height: 100%;
+  transition: var(--transition);
 }
 .rts-single-course.course-list {
   display: flex;
@@ -20019,6 +20034,9 @@ nav ul li a {
 .rts-single-course .rating-wrap .rating-area .stars ul li i {
   font-size: 16px;
   color: #FFA41C;
+}
+.rts-single-course:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 .rts-single-course:hover .thumbnail img {
   transform: scale(1.12);
