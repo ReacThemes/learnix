@@ -486,6 +486,16 @@
     transition: .3s;
     position: relative;
 
+    &:hover {
+        .icon {
+            transform: translateY(-5px);
+        }
+    }
+
+    .icon {
+        transition: var(--transition);
+    }
+
     .title {
         text-align: center;
         font-size: 28px;

@@ -16044,7 +16044,7 @@ nav ul li a {
 }
 
 .banner-three-bg {
-  height: 861px;
+  height: 998px;
   display: flex;
   position: relative;
   z-index: 1;
@@ -16107,11 +16107,13 @@ nav ul li a {
 .banner-three-bg .banner-three-images .float-img.right-img .review-thumb .review-single {
   top: -55%;
   left: 170px;
+  animation: animateY 5s linear infinite;
 }
 .banner-three-bg .banner-three-images .float-img .review-thumb .review-single {
   padding: 14px 22px;
   border-radius: 0;
   box-shadow: none;
+  animation: animateY 5s linear infinite;
 }
 .banner-three-bg .banner-three-images .float-img .review-thumb .review-single img {
   padding: 0;
@@ -16130,7 +16132,7 @@ nav ul li a {
 }
 .banner-three-bg .shape-area img.one {
   left: 2%;
-  top: 5%;
+  top: 12%;
 }
 .banner-three-bg .shape-area img.two {
   left: 50%;
@@ -16145,8 +16147,8 @@ nav ul li a {
   bottom: 20%;
 }
 .banner-three-bg .shape-area img.five {
-  right: 5%;
-  top: 10%;
+  right: 3%;
+  top: 16%;
 }
 
 .banner-three-wrapper {
@@ -19321,6 +19323,12 @@ nav ul li a {
   transition: 0.3s;
   position: relative;
 }
+.category-style-three:hover .icon {
+  transform: translateY(-5px);
+}
+.category-style-three .icon {
+  transition: var(--transition);
+}
 .category-style-three .title {
   text-align: center;
   font-size: 28px;
@@ -21948,10 +21956,12 @@ nav ul li a {
 .why-choose-us.v-3 .why-choose-right-img .instructor-batch img:nth-child(1) {
   top: -20%;
   right: 31%;
+  animation: animateY 5s linear infinite;
 }
 .why-choose-us.v-3 .why-choose-right-img .instructor-batch img:nth-child(2) {
   bottom: 15%;
   left: 20%;
+  animation: animateX 5s linear infinite;
 }
 .why-choose-us.v-3 .why-choose-main-wrapper-2 {
   display: flex;
@@ -34934,7 +34944,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   }
 
   .banner-three-bg {
-    padding: 180px 0;
+    padding: 300px 0 200px;
     height: auto;
   }
 
@@ -35615,7 +35625,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   }
 
   .banner-three-bg {
-    padding: 60px 0 80px;
+    padding: 100px 0 80px;
   }
 
   .banner-three-bg::before,

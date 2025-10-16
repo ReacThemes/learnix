@@ -890,7 +890,7 @@
 }
 
 .banner-three-bg {
-    height: 861px;
+    height: 998px;
     display: flex;
     position: relative;
     z-index: 1;
@@ -965,6 +965,7 @@
                     .review-single {
                         top: -55%;
                         left: 170px;
+                        animation: animateY 5s linear infinite;
                     }
                 }
             }
@@ -974,6 +975,7 @@
                     padding: 14px 22px;
                     border-radius: 0;
                     box-shadow: none;
+                    animation: animateY 5s linear infinite;
 
                     img {
                         padding: 0;
@@ -1000,7 +1002,7 @@
 
             &.one {
                 left: 2%;
-                top: 5%;
+                top: 12%;
             }
 
             &.two {
@@ -1019,8 +1021,8 @@
             }
 
             &.five {
-                right: 5%;
-                top: 10%;
+                right: 3%;
+                top: 16%;
             }
         }
     }
