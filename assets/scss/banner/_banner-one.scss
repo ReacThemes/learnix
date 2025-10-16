@@ -1443,11 +1443,11 @@
     gap: 150px;
     padding-top: 200px;
 
-    @media(max-width:1200px){
+    @media(max-width:1200px) {
         padding-top: 100px;
     }
 
-    @media(max-width:500px){
+    @media(max-width:500px) {
         padding-top: 70px;
     }
 
@@ -2105,7 +2105,7 @@
 }
 
 .banner-area-five {
-    padding-top: 140px;
+    padding-top: 120px;
     height: auto;
     overflow: hidden;
     position: relative;
@@ -2133,8 +2133,8 @@
         }
 
         .four {
-            top: 6%;
-            left: 26%;
+            top: 20%;
+            left: 40%;
         }
 
         .five {
@@ -2143,12 +2143,12 @@
         }
     }
 
-    .banner-top-content {
-        .title-area-center-style {
+    .banner-left-content {
+        .title-area-left-style {
             margin-bottom: 41px;
 
             .title {
-                font-size: 80px;
+                font-size: 100px;
                 margin-top: -8px;
                 margin-bottom: 26px;
                 letter-spacing: -4px;
@@ -2167,50 +2167,63 @@
 
                 @media (max-width:500px) {
                     line-height: 1;
+                    letter-spacing: -2px;
                 }
             }
 
             p {
                 color: #7B7B7B;
+                max-width: 500px;
+            }
+        }
+
+        .btn-ratting {
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+
+            .ratting-content {
+                h4 {
+                    margin-bottom: 2px;
+
+                    span {
+                        color: #65676B;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+
+                .stars {
+                    ul {
+                        padding-left: 0;
+                        display: flex;
+                        align-items: center;
+                        list-style: none;
+                        gap: 2px;
+                        margin: 0;
+
+                        li {
+                            margin: 0;
+
+                            i {
+                                font-size: 16px;
+                                color: #FFA41C;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
 
-    .banner-bottom {
+    .banner-right-img {
         margin-top: 40px;
         position: relative;
         z-index: 1;
 
-        .qoute-content {
-            max-width: 350px;
-            position: absolute;
-            top: 15%;
-            left: -5%;
-
-            @media (min-width:1200px) and (max-width:1400px) {
-                left: 0;
-            }
-
-            @media (max-width:1200px) {
-                left: -30px;
-            }
-
-            @media (max-width:991px) {
-                position: unset;
-            }
-
-            p {
-                margin-bottom: 30px;
-            }
-
-            .counts {
-                h4 {
-                    margin-bottom: 0;
-                }
-            }
-        }
-
-        .mid-img {
+        .person-img {
             text-align: center;
             position: relative;
             z-index: 1;
@@ -2225,19 +2238,11 @@
                 max-width: 70%;
             }
 
-            .girl {
-                @media (max-width:991px) {
-                    max-width: 50%;
-                }
-            }
-
-            .bg-shape {
-                position: absolute;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                z-index: -1;
-            }
+            // .girl {
+            //     @media (max-width:991px) {
+            //         max-width: 50%;
+            //     }
+            // }
 
             .circle-shape {
                 position: absolute;
@@ -2273,23 +2278,30 @@
                     align-items: center;
                     gap: 20px;
                     position: absolute;
-                    top: 48%;
-                    right: 12%;
-                    animation: animateY 15s linear infinite;
+                    top: 50%;
+                    right: 0%;
+                    animation: animateY 5s linear infinite;
 
+                     @media (max-width:1600px) {
+                        right: -20%;
+                    }
 
-                    @media (min-width:1200px) and (max-width:1400px) {
-                        right: 0;
+                    @media (max-width:1400px) {
+                        right: -25%;
                     }
 
                     @media (max-width:1200px) {
-                        top: 50%;
+                        right: -8%;
+                    }
+
+                    @media (max-width:991px){
                         right: 0;
                     }
 
-                    @media(max-width:576px) {
+                    @media (max-width:767px){
                         display: none;
                     }
+
 
                     .content {
                         h4 {
@@ -2306,91 +2318,28 @@
                     display: flex;
                     flex-direction: column;
                     position: absolute;
-                    bottom: 16%;
-                    left: 22%;
+                    bottom: 9%;
+                    left: 0;
                     animation: animateX 5s linear infinite;
 
 
-                    @media (min-width:1200px) and (max-width:1400px) {
-                        left: 15px;
+                    @media (max-width:1400px) {
+                        left: -20%;
                     }
 
                     @media (max-width:1200px) {
-                        left: 105px;
+                        left: -15%;
                     }
 
                     @media (max-width:991px) {
-                        left: unset;
+                        left: 0;
                     }
 
-                    @media(max-width:576px) {
+                    @media (max-width:767px){
                         display: none;
                     }
                 }
 
-            }
-
-
-        }
-
-        .ratting-content {
-            max-width: 180px;
-            position: absolute;
-            right: -9%;
-            bottom: 7%;
-
-            @media (min-width:1400px) and (max-width:1600px) {
-                right: -6%;
-            }
-
-            @media (min-width:1200px) and (max-width:1400px) {
-                right: -2%;
-            }
-
-            @media (max-width:1200px) {
-                top: 25%;
-                right: -30px;
-            }
-
-            @media (max-width:991px) {
-                right: 0;
-            }
-
-            @media (max-width:767px) {
-                top: 35%;
-            }
-
-
-
-            h4 {
-                margin-bottom: 2px;
-
-                span {
-                    color: #65676B;
-                    font-size: 16px;
-                    font-weight: 400;
-                }
-            }
-
-            .stars {
-                ul {
-                    padding-left: 0;
-                    display: flex;
-                    justify-content: end;
-                    align-items: center;
-                    list-style: none;
-                    gap: 2px;
-                    margin: 0;
-
-                    li {
-                        margin: 0;
-
-                        i {
-                            font-size: 16px;
-                            color: #FFA41C;
-                        }
-                    }
-                }
             }
         }
     }

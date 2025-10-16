@@ -373,6 +373,12 @@
     transition: .3s;
     position: relative;
 
+    &:hover {
+        .icon {
+            transform: translateY(-5px);
+        }
+    }
+
     .icon {
         width: 60px;
         height: 60px;
@@ -381,6 +387,7 @@
         display: block;
         border-radius: 6px;
         margin: auto;
+        transition: var(--transition);
     }
 
     .title {
